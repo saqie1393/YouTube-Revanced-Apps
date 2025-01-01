@@ -5,28 +5,14 @@ patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 patches-version = "dev"
 
-[YouTube-Extended]
-app-name = "YouTube"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube'"
-included-patches = "'Visual preferences icons for YouTube' 'Return YouTube Username'"
-patcher-args = """\
-  -OdarkThemeBackgroundColor=#FF111111 \
-  -OlightThemeBackgroundColor=#FFF9F9F9 \
-"""
-[YouTube-RVX]
+[YouTube]
 enabled = true
 app-name = "YouTube"
 build-mode = "both"#both means packing both apk and module at the same time. To pack only mask module, change both to module
 version = "19.16.39"#Remember to check the patch support version before each package
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "RVX"
-patches-version = "v5.2.1-dev.1"
-integrations-version = "v1.16.1"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "ReVanced Extended 3.0"
+integrations-version = "v0.158.0"
 #Remember to change these two versions when the patch is updated
 #uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
