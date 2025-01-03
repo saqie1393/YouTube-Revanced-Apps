@@ -1,8 +1,8 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+patches-source = "anddea/revanced-patches"
+cli-source = "anddea/revanced-cli"
 patches-version = "dev"
 
 [YouTube]
@@ -10,16 +10,17 @@ enabled = true
 app-name = "YouTube"
 build-mode = "both"#both means packing both apk and module at the same time. To pack only mask module, change both to module
 version = "19.16.39"#Remember to check the patch support version before each package
-integrations-source = "inotia00/revanced-integrations"
+integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReVanced Extended"
-integrations-version = "v1.16.1"
+integrations-version = "v0.158.0"
 #Remember to change these two versions when the patch is updated
 #uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 excluded-patches = "'Custom branding name for YouTube'"#Exclusion list
-included-patches = "'MaterialYou''Visual preferences icons for YouTube' 'Return YouTube Username'"#Mandatory inclusion list Patches have a default list, some are disabled by default
+included-patches = "'MaterialYou''Visual preferences icons for YouTube' 'Return YouTube Username''Custom branding'"#Mandatory inclusion list Patches have a default list, some are disabled by default
 arch = "arm64-v8a"
 patcher-args = """\
   -OdarkThemeBackgroundColor=#FF111111 \
   -OlightThemeBackgroundColor=#FFF9F9F9 \
+  -OiconPath=youtube_black
 """
