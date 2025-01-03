@@ -9,25 +9,16 @@ patches-version = "dev"
 enabled = true
 app-name = "YouTube"
 build-mode = "both"#both means packing both apk and module at the same time. To pack only mask module, change both to module
-version = "19.44.39"#Remember to check the patch support version before each package
+version = "19.16.39"#Remember to check the patch support version before each package
 rv-brand = "ReVanced Extended"
-integrations-version = "v1.16.1"
+integrations-source = "anddea/revanced-integrations"
 #Remember to change these two versions when the patch is updated
 #uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 excluded-patches = "'Custom branding name for YouTube'"#Exclusion list
-included-patches = "'MaterialYou''Visual preferences icons for YouTube' 'Return YouTube Username'"#Mandatory inclusion list Patches have a default list, some are disabled by default
+included-patches = "'MaterialYou''Visual preferences icons for YouTube''Custom branding icon YouTube''Settings icons''Return YouTube Username'"#Mandatory inclusion list Patches have a default list, some are disabled by default
 arch = "arm64-v8a"
 patcher-args = """\
   -OdarkThemeBackgroundColor=#FF111111 \
   -OlightThemeBackgroundColor=#FFF9F9F9 \
 """
-[YouTube-Music-Extended]
-app-name = "YouTube Music"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-version = "7.16.53"#Remember to check the patch support version before each package
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom header for YouTube Music'"
-included-patches = "'Visual preferences icons for YouTube Music' 'Return YouTube Username'"
