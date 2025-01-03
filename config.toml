@@ -10,7 +10,6 @@ enabled = true
 app-name = "YouTube"
 build-mode = "both"#both means packing both apk and module at the same time. To pack only mask module, change both to module
 version = "19.44.39"#Remember to check the patch support version before each package
-integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 integrations-version = "v1.16.1"
 #Remember to change these two versions when the patch is updated
@@ -23,3 +22,12 @@ patcher-args = """\
   -OdarkThemeBackgroundColor=#FF111111 \
   -OlightThemeBackgroundColor=#FFF9F9F9 \
 """
+[YouTube-Music-Extended]
+app-name = "YouTube Music"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+version = "7.16.53"#Remember to check the patch support version before each package
+arch = "arm64-v8a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom header for YouTube Music'"
+included-patches = "'Visual preferences icons for YouTube Music' 'Return YouTube Username'"
