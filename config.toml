@@ -10,9 +10,9 @@ enabled = true
 app-name = "YouTube"
 build-mode = "both"#both means packing both apk and module at the same time. To pack only mask module, change both to module
 version = "19.44.39"#Remember to check the patch support version before each package
-integrations-source = "anddea/revanced-integrations"
+integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
-integrations-version = "v0.158.0"
+integrations-version = "v1.16.1"
 #Remember to change these two versions when the patch is updated
 #uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
