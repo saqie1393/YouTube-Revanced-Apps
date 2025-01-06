@@ -20,6 +20,5 @@ included-patches = "'MaterialYou''Visual preferences icons for YouTube''Return Y
 arch = "arm64-v8a"
 patcher-args = """\
   -OdarkThemeBackgroundColor=#FF111111 \
-  -OlightThemeBackgroundColor=#FFF9F9F9 \
-  "squid_game"  
+  -OlightThemeBackgroundColor=#FFF9F9F9 \  
 """
