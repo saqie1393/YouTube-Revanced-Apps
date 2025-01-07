@@ -43,7 +43,7 @@
     "options": [
       {
         "key": "appIcon",
-        "value": "revancify_red"
+        "value": "squid_game"
       },
       {
         "key": "changeSplashIcon",
@@ -52,15 +52,6 @@
       {
         "key": "restoreOldSplashAnimation",
         "value": true
-      }
-    ]
-  },
-  {
-    "patchName": "Custom branding name for YouTube",
-    "options": [
-      {
-        "key": "appName",
-        "value": "YouTube"
       }
     ]
   },
