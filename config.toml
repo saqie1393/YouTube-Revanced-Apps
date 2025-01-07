@@ -17,7 +17,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 excluded-patches = "'Custom branding name for YouTube'"#Exclusion list
 included-patches = "'MaterialYou''Visual preferences icons for YouTube''Return YouTube Username''Custom branding icon'"#Mandatory inclusion list Patches have a default list, some are disabled by default
 arch = "arm64-v8a"
-patcher-args = "'Custom branding icon for YouTube' -OappIcon='mmt'
+patcher-args = "-e'Custom branding icon for YouTube' -OappIcon='mmt'
   -OdarkThemeBackgroundColor=#FF111111 \
   -OlightThemeBackgroundColor=#FFF9F9F9 \  
 """
