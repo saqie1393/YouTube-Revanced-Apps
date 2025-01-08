@@ -6,6 +6,7 @@ cli-source = "inotia00/revanced-cli"
 patches-version = "dev"
 
 [YouTube]
+enabled = true
 app-name = "YouTube"
 build-mode = "both"#both means packing both apk and module at the same time. To pack only mask module, change both to module
 version = "19.16.39"#Remember to check the patch support version before each package
@@ -19,6 +20,7 @@ arch = "arm64-v8a"
 patcher-args = "-e'Custom branding icon for YouTube' -OappIcon='squid_game' -e 'Visual preferences icons for YouTube' -OsettingsMenuIcon='revanced_colored' -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon' -e 'Theme' -OdarkThemeBackgroundColor=#FF111111"
 
 [Instagram]
+enabled = true
 build-mode = "both"
 patches-source = "Aunali321/ReVancedExperiments"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
@@ -27,6 +29,7 @@ version = "357.1.0.52.100"
 arch = "arm64-v8a"  
 
 [Telegram]
+enabled = true
 build-mode = "both"
 patches-source = "Aunali321/ReVancedExperiments"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
@@ -34,6 +37,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
 version = "auto"
 
 [YouTube-Music-Extended]
+enabled = true
 app-name = "YouTube Music"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
@@ -41,10 +45,11 @@ version = "7.16.53"#Remember to check the patch support version before each pack
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom header for YouTube Music'"
-included-patches = "'MaterialYou''Return YouTube Username''Custom header for YouTube'"#Mandatory inclusion list Patches have a default list, some are disabled by default
+included-patches = "'Visual preferences icons for YouTube Music' 'Return YouTube Username'"#Mandatory inclusion list Patches have a default list, some are disabled by default
 patcher-args = " -e'Visual preferences icons for YouTube' -OsettingsMenuIcon='revanced_colored' "
 
 [GooglePhotos]
+enabled = true
 version = "6.96.0.664905419"
 patches-source = "ReVanced/revanced-patches"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/photos/"
