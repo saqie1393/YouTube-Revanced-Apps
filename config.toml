@@ -46,3 +46,10 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom header for YouTube Music'"
 included-patches = "'MaterialYou''Return YouTube Username''Custom header for YouTube'"#Mandatory inclusion list Patches have a default list, some are disabled by default
 patcher-args = "-e'Custom branding icon for YouTube' -OappIcon='squid_game' -e 'Visual preferences icons for YouTube' -OsettingsMenuIcon='revanced_colored' -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon'"
+
+[Google Photos]
+version = "6.89.0.645917732"
+patches-source = "ReVanced/revanced-patches"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/photos/"
+included-patches = "'com.google.android.apps.photos.nexus_preload' 'com.google.android.apps.photos.NEXUS_PRELOAD' 'com.google.android.feature.PIXEL_2021_EXPERIENCE' 'com.google.android.feature.PIXEL_2022_EXPERIENCE'"
+arch = "arm64-v8a"
