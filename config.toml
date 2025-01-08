@@ -50,6 +50,7 @@ patcher-args = "-e'Custom branding icon for YouTube' -OappIcon='squid_game' -e '
 
 [GooglePhotos]
 version = "auto"
+patches-source = "ReVanced/revanced-patches"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/photos/"
 included-patches = "'com.google.android.apps.photos.nexus_preload' 'com.google.android.apps.photos.NEXUS_PRELOAD' 'com.google.android.feature.PIXEL_2021_EXPERIENCE' 'com.google.android.feature.PIXEL_2022_EXPERIENCE'"
 arch = "both"
