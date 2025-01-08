@@ -27,3 +27,11 @@ uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
 version = "357.1.0.52.100"
 arch = "arm64-v8a"  
+
+[Telegram]
+enabled = true
+build-mode = "both"
+patches-source = "Aunali321/ReVancedExperiments"
+uptodown-dlurl = "https://telegram.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
+version = "auto"
