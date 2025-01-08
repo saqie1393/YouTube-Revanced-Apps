@@ -1,4 +1,5 @@
 Instagram: 357.1.0.52.100  
+Telegram: 11.6.1  
 YouTube: 19.16.39  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root YouTube and YT Music from Play Store  
 
