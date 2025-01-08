@@ -46,7 +46,7 @@ arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom header for YouTube Music'"
 included-patches = "'MaterialYou''Return YouTube Username''Custom header for YouTube'"#Mandatory inclusion list Patches have a default list, some are disabled by default
-patcher-args = "-e'Custom branding icon for YouTube' -OappIcon='squid_game' -e 'Visual preferences icons for YouTube' -OsettingsMenuIcon='revanced_colored' -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon'"
+patcher-args = " -e'Visual preferences icons for YouTube' -OsettingsMenuIcon='revanced_colored' "
 
 [GooglePhotos]
 version = "6.96.0.664905419"
