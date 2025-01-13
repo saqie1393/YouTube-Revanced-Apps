@@ -59,7 +59,7 @@ enabled = true
 build-mode = "both"
 excluded-patches = "'Custom branding name for YouTube'"
 included-patches = ""
-patcher-args = "-e 'Change header' -Oheader='premium*header'-e 'Theme' -OdarkThemeBackgroundColor=#FF111111"
+patcher-args = "-e 'Change header' -Oheader='premium*header'"
 version = "auto"
 patches-source = "ReVanced/revanced-patches"
 arch = "arm64-v8a"
