@@ -21,6 +21,7 @@ patcher-args = "-e'Custom branding icon for YouTube' -OappIcon='mmt_blue' -e 'Vi
 
 [YouTube Revanced]
 enabled = true
+app-name = "YouTube Revanced"
 build-mode = "both"
 patches-source = "ReVanced/revanced-patches"
 excluded-patches = "'Custom branding name for YouTube'"#Exclusion list
