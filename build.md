@@ -1,8 +1,8 @@
 GooglePhotos: 6.96.0.664905419  
 Instagram: 357.1.0.52.100  
 Music-Extended: 7.16.53  
-Telegram: 11.6.1  
-YouTube: 19.16.39  
+Telegram: 11.6.2  
+YouTube: 19.44.39  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root YouTube and YT Music from Play Store  
 
 Install [MicroG](https://github.com/WSTxda/MicroG-RE/releases) for non-root YouTube and YT Music APKs  
