@@ -22,14 +22,13 @@ patcher-args = "-e'Custom branding icon for YouTube' -OappIcon='mmt_blue' -e 'Vi
 [YouTube]
 enabled = true
 build-mode = "both"
-module-prop-name = "youtube-E85"
 patches-source = "ReVanced/revanced-patches"
 excluded-patches = "'Custom branding name for YouTube'"#Exclusion list
 included-patches = ""
 patcher-args = "-e 'Change header' -Oheader='premium*header'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+#uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 
