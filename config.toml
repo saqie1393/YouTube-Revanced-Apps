@@ -57,7 +57,7 @@ arch = "arm64-v8a"
 [Revanced]
 enabled = true
 build-mode = "both"
-excluded-patches = "'Custom branding name for YouTube'"
+excluded-patches = ""
 included-patches = ""
 patcher-args = "-e 'Change header' -Oheader='premium*header'"
 version = "auto"
