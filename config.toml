@@ -69,6 +69,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [TikTok]
 enabled = true
+build-mode = "apk"
 patches-source = "ReVanced/revanced-patches"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
