@@ -9,7 +9,7 @@ patches-version = "dev"
 enabled = true
 app-name = "YouTube"
 build-mode = "both"#both means packing both apk and module at the same time. To pack only mask module, change both to module
-version = "19.16.39"#Remember to check the patch support version before each package
+version = "auto"#Remember to check the patch support version before each package
 rv-brand = "ReVanced Extended"
 #Remember to change these two versions when the patch is updated
 #uptodown-dlurl = "https://youtube.en.uptodown.com/android"
