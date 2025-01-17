@@ -1,4 +1,4 @@
-YouTube: 19.50.40  
+YouTube: 20.02.35  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root YouTube and YT Music from Play Store  
 
 Install [MicroG](https://github.com/WSTxda/MicroG-RE/releases) for non-root YouTube and YT Music APKs  
