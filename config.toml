@@ -16,7 +16,6 @@ rv-brand = "ReVanced Extended"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 excluded-patches = "'Custom branding name for YouTube'"#Exclusion list
 included-patches = "'Return YouTube Username''Custom header for YouTube'"#Mandatory inclusion list Patches have a default list, some are disabled by default
-arch = "both"
 patcher-args = " -e 'MaterialYou' -e'Custom branding icon for YouTube' -OappIcon='mmt' -e 'Visual preferences icons for YouTube' -OsettingsMenuIcon='custom_branding_icon' -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon' -e 'Theme' -OdarkThemeBackgroundColor=#FF111111"
 
 [Instagram]
