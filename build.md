@@ -1,3 +1,4 @@
+Music-Extended: 7.16.53  
 YouTube: 19.16.39  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root YouTube and YT Music from Play Store  
 
