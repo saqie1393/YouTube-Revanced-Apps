@@ -37,7 +37,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
 version = "auto"
 
 [Music-Extended]
-enabled = true
+enabled = false
 app-name = "YT Music"
 patcher-args = "-e 'Custom branding name for YouTube Music' -OappNameNotification='YT Music' -OappNameLauncher='YT Music' -e 'Custom branding icon for YouTube Music' -OappIcon='vanced_black' -OchangeSplashIcon='true' -OrestoreOldSplashAnimation='true' -e 'Custom header for YouTube Music' -OcustomHeader='custom_branding_icon' -e 'Visual preferences icons for YouTube Music' -OsettingsMenuIcon='custom_branding_icon' -e 'Settings for YouTube Music' -OsettingsLabel='YT Premium'"
 version = "7.16.53"
