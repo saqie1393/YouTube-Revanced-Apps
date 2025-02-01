@@ -45,14 +45,6 @@ arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
-[GooglePhotos]
-enabled = false
-version = "auto"
-patches-source = "ReVanced/revanced-patches"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/photos/"
-included-patches = "'com.google.android.apps.photos.nexus_preload' 'com.google.android.apps.photos.NEXUS_PRELOAD' 'com.google.android.feature.PIXEL_2021_EXPERIENCE' 'com.google.android.feature.PIXEL_2022_EXPERIENCE'"
-arch = "arm64-v8a"
-
 [ReVanced]
 enabled = false
 build-mode = "both"
@@ -65,12 +57,4 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-[TikTok]
-enabled = true
-build-mode = "apk"
-patches-source = "ReVanced/revanced-patches"
-version = "36.5.4"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
-excluded-patches = ""
+
