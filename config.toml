@@ -20,7 +20,7 @@ patcher-args = "-e 'Return YouTube Username' -e 'MaterialYou' -e 'Custom brandin
 
 [Instagram]
 enabled = true
-build-mode = "all"
+build-mode = "both"
 patches-source = "Aunali321/ReVancedExperiments"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
