@@ -57,4 +57,12 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
+[Spotify]
+app-name = "Spotify"
+build-mode = "apk"
+excluded-patches = ""
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+arch = "arm64-v8a"
+patches-version = "dev"
+
 
