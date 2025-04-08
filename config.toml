@@ -60,12 +60,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 [Spotify]
 enabled = true
 build-mode = "both"
-patches-source = "anddea/revanced-patches"
-app-name = "Spotify"
-excluded-patches = ""
+archive-dlurl = "https://archive.org/download/e85-apks/apks/com.spotify.music"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 version = "auto"
-arch = "both"
-patches-version = "dev"
-
 
