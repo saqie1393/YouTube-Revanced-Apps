@@ -19,7 +19,7 @@ included-patches = "'Custom header for YouTube'"#Mandatory inclusion list Patche
 patcher-args = "-e 'Return YouTube Username' -e 'Custom branding icon for YouTube' -OappIcon='mmt_green' -OchangeSplashIcon='true' -OrestoreOldSplashAnimation='true'   -e 'Visual preferences icons for YouTube'  -OsettingsMenuIcon='yt_alt' -OapplyToAll='true' -e 'Custom Shorts action buttons' -OiconType='Cairo' -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon' -e 'Theme' -OdarkThemeBackgroundColor=#FF111111 -e 'Settings for YouTube' -OsettingsLabel='Revanced Extended'"
 
 [Instagram]
-enabled = true
+enabled = false
 build-mode = "both"
 patches-source = "Aunali321/ReVancedExperiments"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
