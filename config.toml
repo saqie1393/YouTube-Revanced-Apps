@@ -46,10 +46,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 
-[Spotify-apk]
-enabled = true
-build-mode = "apk"
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
+[Spotify]
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-patcher-args = "-e 'Custom theme' -ObackgroundColor=@android:color/black -OoverridePlayerGradientColor=true -ObackgroundColorSecondary=#FF121212 -OaccentColor=#FF1ED760 -OaccentColorPressed=#FF169C46"
+version = "9.0.36.683"
