@@ -24,7 +24,7 @@ build-mode = "both"
 patches-source = "Aunali321/ReVancedExperiments"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
-version = "367.0.0.43.89"
+version = "364.0.0.35.86"
 arch = "arm64-v8a"  
 
 [Telegram]
@@ -33,7 +33,7 @@ build-mode = "both"
 patches-source = "Aunali321/ReVancedExperiments"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
-version = "11.9.0"
+version = "11.8.0"
 
 [Music-Extended]
 enabled = true
@@ -47,5 +47,21 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
 
 [Spotify]
+enabled = true
+build-mode = "module"
+arch = "arm64-v8a"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+patcher-args = "-d 'Spoof package info' -e 'Custom theme' -ObackgroundColor=@android:color/black -OoverridePlayerGradientColor=true -ObackgroundColorSecondary=#FF121212 -OaccentColor=#FF1ED760 -OaccentColorPressed=#FF169C46"
+version = "9.0.46.496"
+
+[Spotify-apk]
+enabled = true
+build-mode = "apk"
+arch = "arm64-v8a"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+patcher-args = "-e 'Custom theme' -ObackgroundColor=@android:color/black -OoverridePlayerGradientColor=true -ObackgroundColorSecondary=#FF121212 -OaccentColor=#FF1ED760 -OaccentColorPressed=#FF169C46"
 version = "9.0.46.496"
