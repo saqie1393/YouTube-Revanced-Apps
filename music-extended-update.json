@@ -1,6 +1,6 @@
 {
-  "version": "v8.05.51 (67)",
-  "versionCode": 67,
-  "zipUrl": "https://github.com/saqie1393/YouTube-Revanced-Apps/releases/download/67/yt-music-revanced-magisk-v8.05.51-arm64-v8a.zip",
+  "version": "v8.05.51 (patches: 3.9.0)",
+  "versionCode": 71,
+  "zipUrl": "https://github.com/saqie1393/YouTube-Revanced-Apps/releases/download/71/yt-music-revanced-magisk-v8.05.51-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/saqie1393/YouTube-Revanced-Apps/update/build.md"
 }
