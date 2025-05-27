@@ -1,14 +1,14 @@
-Instagram: 364.0.0.35.86  
 Music-Extended: 8.05.51  
-Spotify: 9.0.46.496  
-Spotify-apk: 9.0.46.496  
+Spotify-apk: 9.0.46.493  
 Telegram: 11.8.0  
-Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root YouTube and YT Music from Play Store  
+YouTube: 19.16.39  
 
-Install [MicroG](https://github.com/WSTxda/MicroG-RE/releases) for non-root YouTube and YT Music APKs  
+Install [ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube, YT Music and Google Photos  
+Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store (root)  
 
-[YouTube-ReVanced-Extended](https://github.com/saqie1393/Anddea-YT)
-  
+[revanced-magisk-module](https://github.com/Lassie111/revanced-magisk-module)  
+
+Changelog:  
 Patches: anddea/patches-3.9.0.rvp  
 [Changelog](https://github.com/anddea/revanced-patches/releases/tag/v3.9.0)
 
