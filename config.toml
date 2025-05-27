@@ -48,12 +48,14 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
 
 [Spotify]
+enabled = true
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "anddea"
 build-mode = "both"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-version = "9.0.48.367"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+version = "9.0.46.493"
 patcher-args = "-e 'Custom theme' -ObackgroundColor=@android:color/black -OoverridePlayerGradientColor=true -ObackgroundColorSecondary=#FF121212 -OaccentColor=#FF1ED760 -OaccentColorPressed=#FF169C46"
 excluded-patches = "'Lyrics search'"
 
